@@ -210,7 +210,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `email`, `roles`, `password`, `firstname`, `lastname`) VALUES
-(1, 'bouzazi.houda@gmail.com', '[\"ROLE_ADMIN\"]', '$argon2id$v=19$m=65536,t=4,p=1$R2RXM0ZvQTg0SUlsQ244aQ$loiQtR9XBAzU2TWJc5rcDPFe2Mu7vrApp/twA3hFogo', 'houda', 'houda');
+(1, 'admin@test.com', '[\"ROLE_ADMIN\"]', '$argon2id$v=19$m=65536,t=4,p=1$b3JPTkFTWE9yTFVjL0RETA$q8J+ToNjXe6kWLOF7yprskBR+RhryNhXsf8jcWWkNxE', 'Admin', 'Admin');
 
 --
 -- Index pour les tables déchargées
